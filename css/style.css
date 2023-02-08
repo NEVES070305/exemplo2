@@ -5,13 +5,16 @@
 body{
     color: white;
     background-image: url("../image/wood-planks-texture-planks-background-wood-texture-boards-texture-vertical-planks.jpg");
+
 }
+
 header{
     box-shadow: 0px 2px 15px rgb(116, 59, 3);
     background-color: rgb(92,64,51);
     padding: 10px;
-    align-items: center;
-    
+    align-items: center;  
+    position: fixed; 
+    width: 100%;     
 }
 
 header li{
@@ -27,6 +30,7 @@ header ul{
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    
 }
 
 main{
@@ -36,7 +40,72 @@ main{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+
 }
+#inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobre{
+    display: flex;
+    background-color:rgb(150, 56, 10);
+    box-shadow: 20px 15px 15px -2px rgb(150, 56, 10);
+    border-radius: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sobre1{
+    display: flex;
+    flex-direction: row;
+}
+#sobre1 span{
+    display: flex;
+    flex-direction: column;
+}
+.class1{
+    display: flex;
+    justify-content: space-around;
+}
+.class2{
+    display: flex;
+    justify-content: space-around;
+}
+.class3{
+    display: flex;
+    justify-content: space-between;
+}
+.class4{
+    display: flex;
+    justify-content: space-between;
+}
+.class5{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#linguagens{
+    opacity: 0;
+    transition: 0.4s;
+    background-color: black;
+
+}
+#linguagens:hover{
+    opacity: 1;
+
+}
+#linguagens ul{
+    display: flex;
+    flex-direction: row;  
+}
+
 #contato form{
     display: flex;
     flex-direction: column;
@@ -46,6 +115,34 @@ main{
     display: flex;
     flex-direction: row;
     gap: 4px;
+    
+}
+
+#contato h2{
+    display: flex;
+    justify-content: center;
+
+}
+#buttonali{
+    display: flex;
+    justify-content: center;
+}
+#button{
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 70px; 
+}
+
+#button: hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#button{
+    display: flex;
+    justify-content: space-around;
 }
 
 footer{
@@ -54,6 +151,8 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: rgb(92,64,51);
-
     padding: 10px;
+    box-shadow: 0px 2px 15px rgb(116, 59, 3);
 }
+
+ 
